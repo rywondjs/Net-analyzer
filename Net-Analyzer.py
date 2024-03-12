@@ -65,13 +65,13 @@ def perform_port_scan(ip, full_scan=False):
 
 def print_fancy_header():
     fancy_header = f"""
-{Fore.CYAN}
+{Fore.CYAN}{Style.BRIGHT}
 _____   __    _____     _______              ______                          
 ___  | / /______  /_    ___    |____________ ___  /____  ____________________
 __   |/ /_  _ \  __/    __  /| |_  __ \  __ `/_  /__  / / /__  /_  _ \_  ___/
 _  /|  / /  __/ /_      _  ___ |  / / / /_/ /_  / _  /_/ /__  /_/  __/  /    
 /_/ |_/  \___/\__/      /_/  |_/_/ /_/\__,_/ /_/  _\__, / _____/\___//_/     
-                                                /____/   
+                                                  /____/   
 =============================================================================                                   
 {Style.BRIGHT}
 Net Analyzer - Dev By Rywond
@@ -137,13 +137,13 @@ def main():
     full_scan_flag = False
 
     print_fancy_header()
-    print(f"{Fore.RED}Merhaba sevgili kullanıcım!")
-    print(f"{Fore.RED}NetAnalyzer'i kullanırken Legal kalmaya dikkat ediniz.")
-    print(f"{Fore.RED}Geliştirici, program üzerinden yapılan hiç bir eylemden sorumlu değildir.")
+    print(f"{Fore.RED}{Style.BRIGHT}Merhaba sevgili kullanıcım!")
+    print(f"{Fore.RED}{Style.BRIGHT}NetAnalyzer'i kullanırken Legal kalmaya dikkat ediniz.")
+    print(f"{Fore.RED}{Style.BRIGHT}Geliştirici, program üzerinden yapılan hiç bir eylemden sorumlu değildir.")
     print("")
     while True:
         print_menu()
-        choice = input(f"{Fore.RED}root@rywond:~# ")
+        choice = input(f"{Fore.RED}{Style.BRIGHT}root@rywond:~# ")
 
         if choice == "1":
             os.system('cls' if os.name == 'nt' else 'clear')
