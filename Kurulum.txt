@@ -1,0 +1,4 @@
+python indirilecek
+ardından;
+pip install requests
+pip install colorama
