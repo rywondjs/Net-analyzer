@@ -1,4 +1,28 @@
-python indirilecek
-ardından;
+Linux için:
+kurulum için terminal açıp aşağıdaki kodu yazın;
+git clone https://github.com/rywondjs/Net-analyzer/
+
+Ardından dosyanın olduğu yolu kopyalayın.
+Terminale geri dönüp aşağıdaki kodu yazın;
+cd /sizin/dosya/yolunuz/
+
+programı başlatmak için ise;
+python Net-Analyzer.py
+-------------------------------------------
+Windows için:
+Bilgisayarınıza uygun python sürümünü indirin.
+https://www.python.org/
+
+ardından terminal açıp, sırayla aşağıdaki paketleri indirin;
 pip install requests
 pip install colorama
+
+Net-Analyzer'i attığınız dosya yolunu kopyalayın.
+
+CMD veya PowerShell açıp;
+cd /sizin/dosya/yolunuz/
+yazıp klasör içine girin.
+
+programı başlatmak için ise;
+python Net-Analyzer.py
+-------------------------------------------
